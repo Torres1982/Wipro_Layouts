@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".RelativeActivity"
+            android:background="@color/lightGreen">
+    <TextView
+            android:id="@+id/login_text_view_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_string"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="62dp" />
+    <EditText
+            android:id="@+id/edit_text_login_relative"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45sp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@id/login_text_view_relative"
+            android:importantForAutofill="no"
+            android:hint="@string/login_hint" />
+    <TextView
+            android:id="@+id/password_text_view_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password_string"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/login_text_view_relative" />
+    <EditText
+            android:id="@+id/edit_text_password_relative"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/password_text_view_relative"
+            android:layout_below="@id/edit_text_login_relative"
+            android:importantForAutofill="no"
+            android:hint="@string/password_hint" />
+    <Button
+            android:id="@+id/button_login_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_password_relative"
+            android:text="@string/register_button_relative"
+            android:layout_marginTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_centerHorizontal="true" />
+    <Button
+            android:id="@+id/button_back_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_login_relative"
+            android:text="@string/button_back_to_linear"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:layout_centerHorizontal="true" />
+</RelativeLayout>

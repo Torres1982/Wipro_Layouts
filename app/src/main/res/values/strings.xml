@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="login_string">Login:</string>
+    <string name="login_hint">Enter Your Login</string>
+    <string name="password_string">Password:</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string name="register_button">Go To Relative Layout</string>
+    <string name="register_button_relative">Go To Table Layout</string>
+    <string name="button_back_to_linear">Back To Linear Layout</string>
+    <string name="button_back_to_relative">Back To Relative Layout</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_zero">0</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_multiply">*</string>
+    <string name="button_divide">/</string>
+    <string name="button_equals">=</string>
+</resources>
